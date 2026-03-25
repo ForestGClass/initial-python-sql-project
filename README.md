@@ -21,7 +21,14 @@ This project connects Python to SQL Server and performs simple analysis of betti
 Create a `.env` file in the root directory based on `.env.example`.
 
 Example:
-DB_PASSWORD=your_password
+
+DB_HOST=localhost  
+DB_PORT=1433  
+DB_NAME=betting_project  
+DB_USER=sa  
+DB_PASSWORD=your_password_here  
+
+Update these values according to your local database configuration.
 
 ## Run
 
