@@ -99,7 +99,7 @@ def print_analysis(df: pd.DataFrame) -> None:
 
 def save_csv(df: pd.DataFrame, out_csv: Path) -> None:
     try:
-        df.to_csv(out_csv, index=False)
+        df.to_csv(out_csv, index=False, sep=";")
         print(f"\nSaved to {out_csv}")
     except Exception:
         logging.exception("Failed to save CSV.")
