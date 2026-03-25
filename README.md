@@ -26,7 +26,7 @@ DB_HOST=localhost
 DB_PORT=1433  
 DB_NAME=betting_project  
 DB_USER=sa  
-DB_PASSWORD=your_password_here  
+DB_PASSWORD=your_password
 
 Update these values according to your local database configuration.
 
